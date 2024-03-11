@@ -12,10 +12,13 @@ $(document).ready(function(){
 // Language Btn //
 
 $(document).ready(function(){
-    $(".#dropdown").click(function(){
-        $(".dropdown-content").show();
+    var dropdownContent = $(".dropdown-content");
+
+    $("#dropdown").click(function(){
+        dropdownContent.toggle();
     });
 });
+
 
 
 // food menu //

@@ -239,6 +239,7 @@ label #btnf :hover{
     background-color: #000;
     float: right;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .first-language-icon h3{
@@ -267,6 +268,7 @@ label #btnf :hover{
     text-align: center;
     margin-top: 240px;
     border-radius: 100px;
+    cursor: pointer;
    
    
    
