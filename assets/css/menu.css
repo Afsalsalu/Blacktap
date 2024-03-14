@@ -191,7 +191,7 @@
 .main-content {
     position: relative;
     background-color: transparent;
-    min-height: 300vh;
+    min-height: 1000vh;
     top: 0;
     left: 60px;
     transition: all 0.5s ease;
@@ -500,7 +500,7 @@
     font-size: 14px;
     font-weight: normal;
     position: absolute;
-    top: 32.5rem;
+    top: 33.5rem;
     padding-left: 19px; 
 }
 
@@ -523,7 +523,7 @@
 }
 
 .bestseller-img-name-mine-two {
-    width: 240px;
+    width: 260px;
     height:265px;
     background-color: rgba(0, 0, 0, 0.56);
     position: relative;
@@ -532,7 +532,7 @@
 }
 
 .bestseller-img-div img{
-    width: 240px;
+    width: 260px;
     height: 170px;
     background-color: #ffffff;
     border-top-right-radius: 8px;
@@ -542,7 +542,118 @@
 .bestseller-img-name-mine {
     display: grid;
     gap: 25px 0px;
-    
-    grid-template-columns:auto auto auto auto;
+    grid-template-columns:auto auto auto 250px;
     padding: 10px;
-  }
+    padding-top: 20px;
+}
+
+/* .top-fixed-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+} */
+
+
+.bestseller-img-name-mine-second {
+    display: grid;
+    gap: 25px 0px;
+    
+    grid-template-columns:auto auto auto 250px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.WINGS-TENDERS h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 107.5rem;
+    padding-left: 20px;
+}
+
+
+.bestseller-name-mine-two{
+    width: 260px;
+    height:100px;
+    background-color: rgba(0, 0, 0, 0.56);
+    position: relative;
+    top: 500px;
+    border-radius: 8px;
+}
+
+.bestseller-name-div-second h1{
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 7px;
+    padding-top: 9px;
+    margin: 0;
+    position: relative;
+    top: 7px;
+}
+
+.bestseller-name-div-second h2 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    padding-left: 7px;
+    padding-top: 5px;
+    margin: 0;
+    position: relative;
+    top: 7px;
+}
+    
+.CRAFT-BURGERS h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 125.8rem;
+    padding-left: 20px;
+}
+
+.bestseller-img-name-mine-third {
+    display: grid;
+    gap: 25px 0px;
+    grid-template-columns:auto auto auto 250px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.specialty-fries h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 200.5rem;
+    padding-left: 20px;
+}
+
+.bestseller-img-name-mine-forth {
+    display: grid;
+    gap: 25px 0px;
+    grid-template-columns:auto auto auto 250px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+
+.craft-salad h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 239rem;
+    padding-left: 20px;
+
+}
+
+.bestseller-img-name-mine-craft-salad {
+    display: grid;
+    gap: 25px 0px;
+    grid-template-columns:auto auto auto 250px;
+    padding: 10px;
+    padding-top: 50px;
+}
