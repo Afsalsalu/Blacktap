@@ -1,15 +1,18 @@
 /* side navbar */
 
-/* .background-image{ */
-    /* width: 100%;
-    height: 100vh;
-    background-position: center center;
+.background-image{ 
+    background-image: url(/assets/images/second-page-background.webp);
+     width: 100%;
+    height: 1000vh;
+    background-size: cover;
+    background-position: center;
     background-size: cover;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-/* } */
+    /* box-sizing: border-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    
+ } 
 
 .economica-regular {
     font-family: "Economica", sans-serif;
@@ -48,6 +51,7 @@
     transition: all 0.5s ease;
     position: fixed;
     left: 0;
+    z-index: 1;
 }
 
 .sidebar.active ~ .main-content{
@@ -190,10 +194,12 @@
 
 .main-content {
     position: relative;
-    background-color: transparent;
-    min-height: 1000vh;
+
+    /* background-color: yellow; */
+    /* min-height: fit-content; */
+    /* min-height: 1200vh; */
     top: 0;
-    left: 60px;
+    left: 65px;
     transition: all 0.5s ease;
     width: calc(100% - 60px);
     padding: 1rem;
@@ -390,7 +396,7 @@
 
 .food-carousel-mine{
     display: flex;
-    gap: 10px;
+    gap: 8px;
     position: absolute;
     left: 32px;
     top: 130px;
@@ -523,7 +529,7 @@
 }
 
 .bestseller-img-name-mine-two {
-    width: 260px;
+    width: 257px;
     height:265px;
     background-color: rgba(0, 0, 0, 0.56);
     position: relative;
@@ -532,7 +538,7 @@
 }
 
 .bestseller-img-div img{
-    width: 260px;
+    width: 257px;
     height: 170px;
     background-color: #ffffff;
     border-top-right-radius: 8px;
@@ -540,9 +546,10 @@
 }
 
 .bestseller-img-name-mine {
-    display: grid;
-    gap: 25px 0px;
-    grid-template-columns:auto auto auto 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 20px;
 }
@@ -556,10 +563,10 @@
 
 
 .bestseller-img-name-mine-second {
-    display: grid;
-    gap: 25px 0px;
-    
-    grid-template-columns:auto auto auto 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
 }
@@ -575,7 +582,7 @@
 
 
 .bestseller-name-mine-two{
-    width: 260px;
+    width: 257px;
     height:100px;
     background-color: rgba(0, 0, 0, 0.56);
     position: relative;
@@ -615,9 +622,10 @@
 }
 
 .bestseller-img-name-mine-third {
-    display: grid;
-    gap: 25px 0px;
-    grid-template-columns:auto auto auto 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
 }
@@ -632,9 +640,10 @@
 }
 
 .bestseller-img-name-mine-forth {
-    display: grid;
-    gap: 25px 0px;
-    grid-template-columns:auto auto auto 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
 }
@@ -651,9 +660,46 @@
 }
 
 .bestseller-img-name-mine-craft-salad {
-    display: grid;
-    gap: 25px 0px;
-    grid-template-columns:auto auto auto 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    /* grid-template-columns:auto auto auto 250px; */
     padding: 10px;
     padding-top: 50px;
+}
+
+.off-the-record h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 277.5rem;
+    padding-left: 20px;
+}
+
+.bestseller-img-name-mine-off-the-record{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    /* grid-template-columns:auto auto auto 250px; */
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.sauce-it-up h1 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 298rem;
+    padding-left: 20px;
+}
+
+.kids-section-title h1{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    top: 335.5rem;
+    padding-left: 20px;
 }
